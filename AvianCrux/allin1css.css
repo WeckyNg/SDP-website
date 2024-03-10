@@ -1,0 +1,297 @@
+
+.hidden{
+    visibility: hidden;
+}
+#contain{
+    background-color:rgb(93, 215, 231);
+    width:1000px;
+
+}
+
+#header{
+    padding-top: 20px;
+	height:110px;
+	width:1000px;
+    font-size:80px;
+    text-align: center;
+}
+#pagetype{
+    padding-top: 20px;
+	height:100px;
+	width:300px;
+    font-size:55px;
+    text-align: center;
+    color : rgb(199, 5, 173);
+}
+#menu{
+    font-size: 30px;  
+    height:30px;
+	width:1000px;
+    color : rgb(6, 124, 192);
+}
+.welcome{
+    text-align: left;
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+#firstconn{
+    float:left;
+    margin-left: 70px;
+    background-color: rgb(138, 166, 216);
+    border-color:  rgb(100, 30, 180);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+}
+.secondconn{
+    float:left;
+    margin-left: 30px;
+    background-color: rgb(138, 166, 216);
+    border-color:  rgb(100, 30, 180);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+}
+.lastconn{
+    float:right;
+margin-right: 70px;
+background-color: rgb(138, 166, 216);
+border-color:  rgb(100, 30, 180);
+border-width: 3px;
+border-style: solid;
+border-radius: 5px;
+}
+.secondlastconn{
+    float:right;
+    margin-right: 30px;
+    background-color: rgb(138, 166, 216);
+    border-color:  rgb(100, 30, 180);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+}
+.deco{
+    color : rgb(110, 20, 255);
+    text-decoration: none;
+}
+.tabledeco{
+    text-decoration: none;
+}
+
+.lining{
+    border-color : rgb(5, 2, 202)
+}
+
+
+table.choosable{
+    border-style: solid;
+    border-color:  rgb(95, 11, 251);
+    border-width: 5px;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: rgba(141, 236, 208, 0.39);
+    width: 98%;
+}
+tr.choosable,td.choosable{
+    font-size: 23px;
+    border-style: solid;
+    border-color:  rgb(0, 124, 161);
+    border-width: 2px;
+}
+.linkform{
+    text-decoration: none;
+    color: rgb(255, 34, 119);
+
+}
+.linkform2{
+    text-decoration: none;
+    color: rgb(0, 119, 255);
+
+}
+
+.linkform:hover{
+    text-decoration: none;
+    color: rgba(25, 214, 66, 0.918);
+    background-color: rgb(255, 255, 255);
+}
+.linkform2:hover{
+    text-decoration: none;
+    background-color: rgb(255, 208, 0);
+    color: rgba(168, 9, 4, 0.733);
+}
+tr, td{
+    padding: 10px 5px;
+}
+.forminput{
+    width: 550px;
+    font-size: 30px;
+    background-color: wheat;
+}
+.formlabel{
+    width: 100px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+input.formcheck{
+    width: 25px;
+    height: 25px;
+}
+.formnumber{
+    width: 100px;
+    font-size: 30px; 
+    background-color: wheat;
+}
+.formbutton{
+    font-size: 40px;
+    float:right;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.16, rgb(207, 207, 207)), color-stop(0.79, rgb(252, 252, 252)));
+    background-image: -moz-linear-gradient(center bottom, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%);
+    background-image: linear-gradient(to top, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%); 
+    padding: 3px;
+    border-color: #000;
+    color: black;
+    border-width: 2px 0px 0px 2px;
+    border-style: solid;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin : 0px 5px ;
+}
+.formbutton2{
+    font-size: 40px;
+    float:right;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.16, rgb(207, 207, 207)), color-stop(0.79, rgb(252, 252, 252)));
+    background-image: -moz-linear-gradient(center bottom, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%);
+    background-image: linear-gradient(to top, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%); 
+    padding: 3px;
+    border-color: #000;
+    border-width: 2px 0px 0px 2px;
+    border-style: solid;
+    color:black;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin : 0px 5px ;
+}
+.formpicbutton{
+    font-size: 20px;
+    float:right;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.16, rgb(207, 207, 207)), color-stop(0.79, rgb(252, 252, 252)));
+    background-image: -moz-linear-gradient(center bottom, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%);
+    background-image: linear-gradient(to top, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%); 
+    padding: 3px;
+    border-color: #000;
+    border-width: 2px 0px 0px 2px;
+    border-style: solid;
+    color:black;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin : 0px 5px ;
+    text-align: center;
+}
+#disablednum{
+    pointer-events:none;
+}
+
+#longimput{
+    height: 110px;
+    border-color: #000;
+    border-width: 2px 0px 0px 2px;
+    border-style: solid;
+}
+#imagePre{
+    width: 550px;
+    height: 380px;
+
+}
+#imagePreIT{
+    max-width: 550px;
+    max-height: 380px;
+
+}
+.MenuText{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+}
+.Menutop{
+    float:inherit;
+width: 1000px;
+height: 600px;
+}
+.columnA1{
+    width: 460px;
+    float: left;
+    margin-left: 25px;
+    font-size: 50px;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: aliceblue;
+}
+.columnA2{
+    width: 460px;
+    float: Right;
+    margin-right: 25px;
+    font-size: 50px;
+    border-style: solid;
+
+    border-width: 2px 2px 2px 2px;
+    border-color: aliceblue;
+}
+#SecondAd{
+    height: 180px;
+}
+#FirstAd{
+    height: 590px;
+}
+.MainMenuButton{
+font-size: 30px;
+border-radius: 20px;
+border-style: solid;
+border-color: blueviolet;
+background-color: rgba(109, 209, 89, 0.733);
+padding: 4px 4px 4px 4px;
+margin: 10px 0px 0px 10px;
+width: 400px;
+height: 50px;
+text-align: center;
+}
+.MainMenuButton:hover{
+    background-color: rgba(201, 68, 161, 0.733);
+    color : rgb(111, 255, 248);
+
+}
+.MainMenuButtonManager{
+    font-size: 30px;
+border-radius: 20px;
+border-style: solid;
+border-color: blueviolet;
+background-color: rgba(109, 209, 89, 0.733);
+padding: 4px 4px 34px 4px;
+margin: 10px 0px 0px 10px;
+width: 400px;
+height: 50px;
+text-align: center;
+}
+.MainMenuButtonManager:hover{
+    background-color: rgba(201, 68, 161, 0.733);
+    color : rgb(111, 255, 248);
+}
+.Menubtm{
+    float:inherit;
+    width: 1000px;
+    height: 200px;
+}
+.ListImage{
+    max-width: 140px;
+    max-height: 90px;
+
+}
